@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    
+    &::-webkit-scrollbar {
+        width: 10px;
+
+        &-track {
+            background-color: $white;
+        }
+
+        &-thumb {
+            background-color: $yellow;
+            border-radius: 100px;
+        }
+    }
+}
+
+h1, h2, h3, h4, h5, h6, p, a, span {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
