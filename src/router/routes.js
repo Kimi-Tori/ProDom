@@ -11,9 +11,9 @@ export default [
         ]
     },
     
-    {
+   /*  {
         name: 'side-template',
         path: '/side-template',
         component: () => import('@/views/side-template.vue')
-    }
+    } */
 ];

@@ -6,6 +6,8 @@ $yellow: #F8F200;
 $green-main: #629A19;
 $green-dark: #314d0d;
 $red-error: #DC0D15;
+$blue-light: #E6E6E6;
+$light-grey-alpha-12: rgba(52, 58, 64, 12%);
 
 $primary: $white;
 $error: $red-error;
@@ -16,7 +18,7 @@ $z-index-top: 2;
 
 $xs: 0;
 $sm: 320px;
-$md: 1024px;
+$md: 960px;
 $lg: 1360px;
 $xl: 1920px;
 
@@ -32,6 +34,9 @@ v-container {
     min-width: 100% !important;
     display: block;
     @include up($md) {
-        max-width: 1024px;
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 0 25px;
+        min-width: auto !important;
     }
 }

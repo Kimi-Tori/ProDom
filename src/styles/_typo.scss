@@ -8,3 +8,28 @@
     font-size: 24px;
     font-weight: 700;
 }
+.Roboto-28-700 {
+    font-family: "Roboto", sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+
+    @include up($md) {
+        font-size: 60px;
+    }
+}
+
+.Roboto-14-700 {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+
+    @include up($md) {
+        font-size: 28px;
+    }
+}
+
+.Roboto-16-700 {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}

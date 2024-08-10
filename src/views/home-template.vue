@@ -1,12 +1,16 @@
 <template>
     <section class="home__template">
-        <!-- <router-link :to="{ name: 'side-template' }" target='_blank'>Дочерняя страница</router-link> -->
+        <intro-template />
     </section>
 </template>
 
 <script>
+import IntroTemplate from '@/components/home/intro-template.vue'
 export default {
-    name: 'home-template'
+    name: 'home-template',
+    components: {
+        IntroTemplate
+    }
 }
 </script>
 
