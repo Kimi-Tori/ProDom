@@ -8,6 +8,7 @@ $green-dark: #314d0d;
 $red-error: #DC0D15;
 $blue-light: #E6E6E6;
 $light-grey-alpha-12: rgba(52, 58, 64, 12%);
+$grey: #EEEEEE;
 
 $primary: $white;
 $error: $red-error;
@@ -18,7 +19,7 @@ $z-index-top: 2;
 
 $xs: 0;
 $sm: 320px;
-$md: 960px;
+$md: 1200px;
 $lg: 1360px;
 $xl: 1920px;
 
@@ -28,15 +29,16 @@ $container-max-width--lg: $lg;
 $container-max-width--xl: $xl;
 
 // Переназначаю max-width у v-container
-v-container {
+.v-container {
     max-width: 320px;
-    padding: 0 10px;
+    padding: 10px 10px;
     min-width: 100% !important;
     display: block;
+
     @include up($md) {
-        max-width: 1100px;
+        max-width: 1200px !important;
         margin: 0 auto;
-        padding: 0 25px;
+        padding: 10px 25px;
         min-width: auto !important;
     }
 }
