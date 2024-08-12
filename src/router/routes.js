@@ -22,6 +22,11 @@ export default [
                 name: 'footing',
                 path: '/footing',
                 component: () => import('@/views/the-footing-template.vue')
+            },
+            {
+                name: 'mortgage',
+                path: '/mortgage',
+                component: () => import('@/views/mortgage-template.vue')
             }
         ]
     },

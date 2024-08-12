@@ -1,5 +1,5 @@
 <template>
-    <div class="designed-info ml-3">
+    <div class="designed-info ml-md-3">
         <h1 class="Roboto-28-700-no-adaptive">Грамотное проектирование – залог качественного строительства</h1>
         <p class="Roboto-16-400 font-italic mt-3">
             <img src="@/assets/designed/designed-img.jpg" class="designed-info__img float-left mr-5" vspace="5" hspace="5">

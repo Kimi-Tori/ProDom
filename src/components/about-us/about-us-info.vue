@@ -1,5 +1,5 @@
 <template>
-    <div class="about-us-info ml-3">
+    <div class="about-us-info ml-md-3">
         <h1 class="Roboto-28-700-no-adaptive">Проектные и строительные работы в Крыму от профессионалов</h1>
         <p class="Roboto-16-400 font-italic mt-3">
             <img src="@/assets/about-us/about-img.jpg" class="about-us-info__img float-left mr-5" vspace="5" hspace="5">

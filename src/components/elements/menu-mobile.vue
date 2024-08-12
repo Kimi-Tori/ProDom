@@ -31,7 +31,7 @@ export default {
           {name: 'designed', title: 'Проектирование'},
           {name: 'footing', title: 'Строительство'},
           {name: 'home', title: 'Готовые решения'},
-          {name: 'home', title: 'Стройка в ипотеку'},
+          {name: 'mortgage', title: 'Стройка в ипотеку'},
           {name: 'home', title: 'Виллы и особняки'},
           {name: 'home', title: 'Мини-дома'},
           {name: 'home', title: 'Контакты'}
