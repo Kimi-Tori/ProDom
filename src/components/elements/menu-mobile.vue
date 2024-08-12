@@ -27,9 +27,9 @@ export default {
     data() {
       return {
         items: [
-          {name: 'home', title: 'О нас'},
-          {name: 'home', title: 'Проектирование'},
-          {name: 'home', title: 'Строительство'},
+          {name: 'about-us', title: 'О нас'},
+          {name: 'designed', title: 'Проектирование'},
+          {name: 'footing', title: 'Строительство'},
           {name: 'home', title: 'Готовые решения'},
           {name: 'home', title: 'Стройка в ипотеку'},
           {name: 'home', title: 'Виллы и особняки'},

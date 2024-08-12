@@ -5,15 +5,26 @@ export default [
         children: [
             {
                 name: 'home',
-                path: '',
+                path: '/',
                 component: () => import('@/views/home-template.vue')
             },
+            {
+                name: 'about-us',
+                path: '/about-us',
+                component: () => import('@/views/about-us.vue')
+            },
+            {
+                name: 'designed',
+                path: '/designed',
+                component: () => import('@/views/designed-template.vue')
+            },
+            {
+                name: 'footing',
+                path: '/footing',
+                component: () => import('@/views/the-footing-template.vue')
+            }
         ]
     },
     
-   /*  {
-        name: 'side-template',
-        path: '/side-template',
-        component: () => import('@/views/side-template.vue')
-    } */
+    
 ];

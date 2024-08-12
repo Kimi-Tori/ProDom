@@ -1,7 +1,7 @@
 <template>
-    <v-container class="flex-container d-md-flex" id="next-section">
-        <left-menu />
+    <v-container class="home-container d-md-flex flex-md-row-reverse" id="next-section">
         <info-block />
+        <left-menu />
     </v-container>
 </template>
 
@@ -10,10 +10,15 @@ import LeftMenu from '@/components/home/left-menu.vue'
 import InfoBlock from '@/components/home/info-block.vue'
 
 export default {
-    name: 'flex-container',
+    name: 'home-container',
     components: {
         LeftMenu,
         InfoBlock
     }
 }
 </script>
+
+<style lang="scss">
+.home-container {
+}
+</style>

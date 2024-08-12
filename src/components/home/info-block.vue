@@ -42,25 +42,22 @@
             <li class="Roboto-16-400 font-italic ml-5"><b>ПРО</b>верены временем на строительстве <b>ДОМ</b>ов в Крыму и городе Севастополь</li>
         </ul>
         <p class="Roboto-16-400 font-italic mt-3">Если вы настроены на качество, точные сроки и достойный результат – приглашаем вас стать нашим клиентом!</p>
-        <a href="tel:+79782070939" class="info-block__btn Roboto-24-700 color-white w-100 d-flex justify-center align-center pa-2 mt-5">Позвонить:<img src="@/assets/info-block/phone.png" class="mx-2" />  +7 978 207-09-39</a>
+        <button-phone />
     </div>
 </template>
 
 <script>
+import ButtonPhone from '@/components/elements/button-phone'
+
 export default {
     name: 'info-block',
+    components: {
+        ButtonPhone
+    }
 }
 </script>
 
 <style lang="scss">
 .info-block {
-    &__btn {
-        background-color: $green-main;
-        min-height: 60px;
-
-        &:hover {
-            color: $yellow;
-        }
-    }
 }
 </style>
