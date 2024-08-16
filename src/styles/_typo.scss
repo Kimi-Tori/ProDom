@@ -1,13 +1,3 @@
-.Roboto-16-400 {
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-}
-.Roboto-24-700 {
-    font-family: "Roboto", sans-serif;
-    font-size: 24px;
-    font-weight: 700;
-}
 .Roboto-28-700 {
     font-family: "Roboto", sans-serif;
     font-size: 26px;
@@ -24,6 +14,24 @@
     font-weight: 700;
 }
 
+.Roboto-24-700 {
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.Roboto-16-700 {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.Roboto-16-400 {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
 .Roboto-14-700 {
     font-family: "Roboto", sans-serif;
     font-size: 14px;
@@ -34,8 +42,14 @@
     }
 }
 
-.Roboto-16-700 {
+.Roboto-14-700-no-adaptive {
     font-family: "Roboto", sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 700;
+}
+
+.Roboto-14-400 {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
 }

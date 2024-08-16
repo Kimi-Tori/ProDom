@@ -37,11 +37,11 @@
                 <div class="the-footer__container d-flex flex-column mt-5 mt-md-0 mx-md-4">
                     <p class="the-footer__container-title Roboto-16-700 text-uppercase pb-3">Навигация</p>
                     <div class="mt-3">
-                        <router-link class="Roboto-16-400 the-footer__container-links d-block color-black" :to="{ name: home }" target="_blank">О нас</router-link>
-                        <router-link class="Roboto-16-400 the-footer__container-links d-block color-black mt-3" :to="{ name: home }" target="_blank">Проектирование домов</router-link>
+                        <router-link class="Roboto-16-400 the-footer__container-links d-block color-black" :to="{ name: about-us }" target="_blank">О нас</router-link>
+                        <router-link class="Roboto-16-400 the-footer__container-links d-block color-black mt-3" :to="{ name: designed }" target="_blank">Проектирование домов</router-link>
                         <router-link class="Roboto-16-400 the-footer__container-links d-block color-black mt-3" :to="{ name: home }" target="_blank">Наши работы</router-link>
                         <router-link class="Roboto-16-400 the-footer__container-links d-block color-black mt-3" :to="{ name: home }" target="_blank">Это интересно</router-link>
-                        <router-link class="Roboto-16-400 the-footer__container-links d-block color-black mt-3" :to="{ name: home }" target="_blank">Контакты</router-link>
+                        <router-link class="Roboto-16-400 the-footer__container-links d-block color-black mt-3" :to="{ name: contacts }" target="_blank">Контакты</router-link>
                     </div>
                 </div>
                 <div class="the-footer__container d-flex flex-column mt-5 mt-md-0 mx-md-4">

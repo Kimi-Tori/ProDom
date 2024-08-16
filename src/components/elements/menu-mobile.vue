@@ -30,11 +30,11 @@ export default {
           {name: 'about-us', title: 'О нас'},
           {name: 'designed', title: 'Проектирование'},
           {name: 'footing', title: 'Строительство'},
-          {name: 'home', title: 'Готовые решения'},
+          {name: 'ready-made', title: 'Готовые решения'},
           {name: 'mortgage', title: 'Стройка в ипотеку'},
-          {name: 'home', title: 'Виллы и особняки'},
-          {name: 'home', title: 'Мини-дома'},
-          {name: 'home', title: 'Контакты'}
+          {name: 'villas', title: 'Виллы и особняки'},
+          {name: 'mini-houses', title: 'Мини-дома'},
+          {name: 'contacts', title: 'Контакты'}
         ],
         showMenu: false
       }

@@ -16,7 +16,7 @@
 export default {
     name: 'acordion-template',
     props: {
-    accordion: {
+        accordion: {
             type: Array,
             required: true,
             default: () => []

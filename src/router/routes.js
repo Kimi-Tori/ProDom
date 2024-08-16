@@ -24,10 +24,30 @@ export default [
                 component: () => import('@/views/the-footing-template.vue')
             },
             {
+                name: 'ready-made',
+                path: '/ready-made',
+                component: () => import('@/views/ready-made-template.vue')
+            },
+            {
                 name: 'mortgage',
                 path: '/mortgage',
                 component: () => import('@/views/mortgage-template.vue')
-            }
+            },
+            {
+                name: 'villas',
+                path: '/villas',
+                component: () => import('@/views/villas-template.vue')
+            },
+            {
+                name: 'mini-houses',
+                path: '/mini-houses',
+                component: () => import('@/views/mini-houses-template.vue')
+            },
+            {
+                name: 'contacts',
+                path: '/contacts',
+                component: () => import('@/views/contacts-template.vue')
+            },
         ]
     },
     
