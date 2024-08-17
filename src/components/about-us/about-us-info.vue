@@ -55,7 +55,7 @@
             </ul>
         </p>
         <p class="Roboto-16-400 font-italic mt-3">Доверьтесь команде профессионалов, и мы построим дом вашей мечты!</p>
-        <button-phone />
+        <button-phone>Позвонить</button-phone>
     </div>
 </template>
 
