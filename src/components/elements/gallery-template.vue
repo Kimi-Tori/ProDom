@@ -1,7 +1,7 @@
 <template>
     <div class="gallery-template mt-5" >
         <div v-if='images && images.length' class="d-flex flex-column align-center d-md-block">
-            <div v-for="item in images" :key="item" class="d-md-flex mt-10">
+            <div v-for="item in images" :key="item" class="d-md-flex align-center mt-10">
                 <div class="gallery-template__container pa-2 d-flex">
                     <img v-if="item.src && item.src.length" :src="item.src" class="gallery-template__container-img w-100">
                 </div>
@@ -65,6 +65,12 @@
                     <div v-if="item.benefit && item.benefit.length" class="gallery-template__info-container d-flex justify-space-between py-1">
                         <p class="gallery-template__info-container__title Roboto-14-400">Ваша выгода</p>
                         <p class="text-right ml-3 Roboto-14-700-no-adaptive">{{ item.benefit }}</p>
+                    </div>
+                    <div v-if="item.type && item.type.length" class="d-flex justify-space-between py-1">
+                        <p class="Roboto-24-700 text-uppercase">{{ item.type }}</p>
+                    </div>
+                    <div v-if="item.subtitle && item.subtitle.length" class="d-flex justify-space-between py-1">
+                        <p class="Roboto-16-400">{{ item.subtitle }}</p>
                     </div>
                 </div>
             </div>

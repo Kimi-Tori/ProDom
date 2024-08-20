@@ -39,19 +39,19 @@
                     <div class="mt-3">
                         <router-link class="Roboto-16-400 the-footer__container-links d-block color-black" :to="{ name: 'about-us' }">О нас</router-link>
                         <router-link class="Roboto-16-400 the-footer__container-links d-block color-black mt-3" :to="{ name: 'designed' }">Проектирование домов</router-link>
-                        <router-link class="Roboto-16-400 the-footer__container-links d-block color-black mt-3" :to="{ name: 'home' }">Наши работы</router-link>
-                        <router-link class="Roboto-16-400 the-footer__container-links d-block color-black mt-3" :to="{ name: 'home' }">Это интересно</router-link>
+                        <router-link class="Roboto-16-400 the-footer__container-links d-block color-black mt-3" :to="{ name: 'works' }">Наши работы</router-link>
+                        <router-link class="Roboto-16-400 the-footer__container-links d-block color-black mt-3" :to="{ name: 'interesting' }">Это интересно</router-link>
                         <router-link class="Roboto-16-400 the-footer__container-links d-block color-black mt-3" :to="{ name: 'contacts' }">Контакты</router-link>
                     </div>
                 </div>
                 <div class="the-footer__container d-flex flex-column mt-5 mt-md-0 mx-md-4">
                     <p class="the-footer__container-title Roboto-16-700 text-uppercase pb-3">Услуги</p>
                     <div class="mt-3">
-                        <router-link class="Roboto-16-400 the-footer__container-links d-block color-black" :to="{ name: home }">Строительство "под ключ"</router-link>
-                        <router-link class="Roboto-16-400 the-footer__container-links d-block color-black mt-3" :to="{ name: 'home' }">Бетонные работы</router-link>
-                        <router-link class="Roboto-16-400 the-footer__container-links d-block color-black mt-3" :to="{ name: 'home' }">Стены</router-link>
-                        <router-link class="Roboto-16-400 the-footer__container-links d-block color-black mt-3" :to="{ name: 'home' }">Кровельные работы</router-link>
-                        <router-link class="Roboto-16-400 the-footer__container-links d-block color-black mt-3" :to="{ name: 'home' }">Фасады</router-link>
+                        <router-link class="Roboto-16-400 the-footer__container-links d-block color-black" :to="{ name: 'turnkey' }">Строительство "под ключ"</router-link>
+                        <router-link class="Roboto-16-400 the-footer__container-links d-block color-black mt-3" :to="{ name: 'monolitic' }">Бетонные работы</router-link>
+                        <router-link class="Roboto-16-400 the-footer__container-links d-block color-black mt-3" :to="{ name: 'walls' }">Стены</router-link>
+                        <router-link class="Roboto-16-400 the-footer__container-links d-block color-black mt-3" :to="{ name: 'roofing' }">Кровельные работы</router-link>
+                        <router-link class="Roboto-16-400 the-footer__container-links d-block color-black mt-3" :to="{ name: 'facades' }">Фасады</router-link>
                     </div>
                 </div>
                 <div class="the-footer__container d-flex flex-column mt-5 mt-md-0 mx-md-4">

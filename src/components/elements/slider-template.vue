@@ -37,4 +37,7 @@ export default {
 <style lang="scss">
 .slider-template {
 }
+.swiper-wrapper {
+    align-items: center;
+}
 </style>

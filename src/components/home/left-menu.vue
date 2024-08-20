@@ -19,11 +19,11 @@ export default {
           {name: 'walls', title: 'Стены'},
           {name: 'roofing', title: 'Кровельные работы'},
           {name: 'facades', title: 'Фасады'},
-          {name: 'home', title: 'Инженерные сети (электричество, вода, отопление)'},
-          {name: 'home', title: 'Внутренняя отделка'},
-          {name: 'home', title: 'Реконструкция домов'},
-          {name: 'home', title: 'КП «Скандинавия»'},
-          {name: 'home', title: 'Это интересно'},
+          {name: 'network', title: 'Инженерные сети (электричество, вода, отопление)'},
+          {name: 'finishing', title: 'Внутренняя отделка'},
+          {name: 'reconstruction', title: 'Реконструкция домов'},
+          {name: 'scandinavia', title: 'КП «Скандинавия»'},
+          {name: 'interesting', title: 'Это интересно'},
         ],
         showMenu: false
       }

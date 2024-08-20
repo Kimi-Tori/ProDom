@@ -78,8 +78,31 @@ export default [
                 path: '/facades',
                 component: () => import('@/views/facades-template.vue')
             },
+            {
+                name: 'network',
+                path: '/network',
+                component: () => import('@/views/network-template.vue')
+            },
+            {
+                name: 'finishing',
+                path: '/finishing',
+                component: () => import('@/views/finishing-template.vue')
+            },
+            {
+                name: 'reconstruction',
+                path: '/reconstruction',
+                component: () => import('@/views/reconstruction-template.vue')
+            },
+            {
+                name: 'scandinavia',
+                path: '/scandinavia',
+                component: () => import('@/views/scandinavia-template.vue')
+            },
+            {
+                name: 'interesting',
+                path: '/interesting',
+                component: () => import('@/views/interesting-template.vue')
+            },
         ]
     },
-    
-    
 ];
