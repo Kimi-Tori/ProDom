@@ -13,12 +13,12 @@ export default {
     data() {
       return {
         items: [
-          {name: 'home', title: 'Наши работы'},
-          {name: 'home', title: 'Строительство домов «под ключ»'},
-          {name: 'home', title: 'Бетонные (монолитные) работы'},
-          {name: 'home', title: 'Стены'},
-          {name: 'home', title: 'Кровельные работы'},
-          {name: 'home', title: 'Фасады'},
+          {name: 'works', title: 'Наши работы'},
+          {name: 'turnkey', title: 'Строительство домов «под ключ»'},
+          {name: 'monolitic', title: 'Бетонные (монолитные) работы'},
+          {name: 'walls', title: 'Стены'},
+          {name: 'roofing', title: 'Кровельные работы'},
+          {name: 'facades', title: 'Фасады'},
           {name: 'home', title: 'Инженерные сети (электричество, вода, отопление)'},
           {name: 'home', title: 'Внутренняя отделка'},
           {name: 'home', title: 'Реконструкция домов'},
@@ -38,6 +38,7 @@ export default {
 
     @include up($md) {
         max-width: 300px;
+        min-width: 300px;
     }
 
     &__link {

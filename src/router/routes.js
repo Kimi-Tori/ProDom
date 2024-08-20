@@ -48,6 +48,36 @@ export default [
                 path: '/contacts',
                 component: () => import('@/views/contacts-template.vue')
             },
+            {
+                name: 'works',
+                path: '/works',
+                component: () => import('@/views/works-template.vue')
+            },
+            {
+                name: 'turnkey',
+                path: '/turnkey',
+                component: () => import('@/views/turnkey-template.vue')
+            },
+            {
+                name: 'monolitic',
+                path: '/monolitic',
+                component: () => import('@/views/monolitic-template.vue')
+            },
+            {
+                name: 'walls',
+                path: '/walls',
+                component: () => import('@/views/walls-template.vue')
+            },
+            {
+                name: 'roofing',
+                path: '/roofing',
+                component: () => import('@/views/roofing-template.vue')
+            },
+            {
+                name: 'facades',
+                path: '/facades',
+                component: () => import('@/views/facades-template.vue')
+            },
         ]
     },
     

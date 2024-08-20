@@ -37,33 +37,33 @@
                 <div class="the-footer__container d-flex flex-column mt-5 mt-md-0 mx-md-4">
                     <p class="the-footer__container-title Roboto-16-700 text-uppercase pb-3">Навигация</p>
                     <div class="mt-3">
-                        <router-link class="Roboto-16-400 the-footer__container-links d-block color-black" :to="{ name: about-us }" target="_blank">О нас</router-link>
-                        <router-link class="Roboto-16-400 the-footer__container-links d-block color-black mt-3" :to="{ name: designed }" target="_blank">Проектирование домов</router-link>
-                        <router-link class="Roboto-16-400 the-footer__container-links d-block color-black mt-3" :to="{ name: home }" target="_blank">Наши работы</router-link>
-                        <router-link class="Roboto-16-400 the-footer__container-links d-block color-black mt-3" :to="{ name: home }" target="_blank">Это интересно</router-link>
-                        <router-link class="Roboto-16-400 the-footer__container-links d-block color-black mt-3" :to="{ name: contacts }" target="_blank">Контакты</router-link>
+                        <router-link class="Roboto-16-400 the-footer__container-links d-block color-black" :to="{ name: 'about-us' }">О нас</router-link>
+                        <router-link class="Roboto-16-400 the-footer__container-links d-block color-black mt-3" :to="{ name: 'designed' }">Проектирование домов</router-link>
+                        <router-link class="Roboto-16-400 the-footer__container-links d-block color-black mt-3" :to="{ name: 'home' }">Наши работы</router-link>
+                        <router-link class="Roboto-16-400 the-footer__container-links d-block color-black mt-3" :to="{ name: 'home' }">Это интересно</router-link>
+                        <router-link class="Roboto-16-400 the-footer__container-links d-block color-black mt-3" :to="{ name: 'contacts' }">Контакты</router-link>
                     </div>
                 </div>
                 <div class="the-footer__container d-flex flex-column mt-5 mt-md-0 mx-md-4">
                     <p class="the-footer__container-title Roboto-16-700 text-uppercase pb-3">Услуги</p>
                     <div class="mt-3">
-                        <router-link class="Roboto-16-400 the-footer__container-links d-block color-black" :to="{ name: home }" target="_blank">Строительство "под ключ"</router-link>
-                        <router-link class="Roboto-16-400 the-footer__container-links d-block color-black mt-3" :to="{ name: home }" target="_blank">Бетонные работы</router-link>
-                        <router-link class="Roboto-16-400 the-footer__container-links d-block color-black mt-3" :to="{ name: home }" target="_blank">Стены</router-link>
-                        <router-link class="Roboto-16-400 the-footer__container-links d-block color-black mt-3" :to="{ name: home }" target="_blank">Кровельные работы</router-link>
-                        <router-link class="Roboto-16-400 the-footer__container-links d-block color-black mt-3" :to="{ name: home }" target="_blank">Фасады</router-link>
+                        <router-link class="Roboto-16-400 the-footer__container-links d-block color-black" :to="{ name: home }">Строительство "под ключ"</router-link>
+                        <router-link class="Roboto-16-400 the-footer__container-links d-block color-black mt-3" :to="{ name: 'home' }">Бетонные работы</router-link>
+                        <router-link class="Roboto-16-400 the-footer__container-links d-block color-black mt-3" :to="{ name: 'home' }">Стены</router-link>
+                        <router-link class="Roboto-16-400 the-footer__container-links d-block color-black mt-3" :to="{ name: 'home' }">Кровельные работы</router-link>
+                        <router-link class="Roboto-16-400 the-footer__container-links d-block color-black mt-3" :to="{ name: 'home' }">Фасады</router-link>
                     </div>
                 </div>
                 <div class="the-footer__container d-flex flex-column mt-5 mt-md-0 mx-md-4">
                     <p class="the-footer__container-title Roboto-16-700 text-uppercase pb-3">Информация</p>
                     <div class="mt-3">
-                        <router-link class="Roboto-16-400 the-footer__container-links d-block color-black" :to="{ name: home }" target="_blank">Политика конфиденциальности</router-link>
+                        <router-link class="Roboto-16-400 the-footer__container-links d-block color-black" :to="{ name: 'home' }">Политика конфиденциальности</router-link>
                     </div>
                 </div>
             </div>
             <div class="the-footer__copyrate-container d-flex flex-column flex-md-row justify-space-between pt-6 mx-md-4">
                 <p class="Roboto-16-400">© 2024 Про Дом. Все права защищены.</p>
-                <p class="Roboto-16-400 mt-3 mt-md-0"><router-link class="the-footer__copyrate-container__seo Roboto-16-400 color-black" :to="{ name: home }" target="_blank">Продвижение сайта</router-link> в АРК</p>
+                <p class="Roboto-16-400 mt-3 mt-md-0"><router-link class="the-footer__copyrate-container__seo Roboto-16-400 color-black" :to="{ name: 'home' }">Продвижение сайта</router-link> в АРК</p>
             </div>
         </v-container>
     </footer>
