@@ -5,7 +5,7 @@ export default [
         children: [
             {
                 name: 'home',
-                path: '/ProDom/',
+                path: '/ProDom',
                 component: () => import('@/views/home-template.vue')
             },
             {

@@ -1,7 +1,7 @@
-const { defineConfig } = require('@vue/cli-service')
+const { defineConfig } = require('@vue/cli-service');
 
 module.exports = defineConfig({
-  publicPath: process.env.NODE_ENV === 'production' ? '/ProDom/' : '/',
+  publicPath: process.env.NODE_ENV === 'production' ? '/ProDom/' : '/ProDom/',
   transpileDependencies: true,
   css: {
     loaderOptions: {
@@ -10,4 +10,17 @@ module.exports = defineConfig({
       },
     },
   },
-})
+  chainWebpack: (config) => {
+    config.plugin('html').tap((args) => {
+      args[0].title = 'ProDom';
+      return args;
+    });
+  },
+  devServer: {
+    historyApiFallback: {
+      rewrites: [
+        { from: /^\/ProDom/, to: '/' }
+      ]
+    },
+  }
+});
